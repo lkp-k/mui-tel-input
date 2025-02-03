@@ -46,7 +46,7 @@
     "test": "vitest",
     "release": "standard-version",
     "coverage": "vitest run --coverage",
-    "prepare": "husky"
+    "prepare": "npm run build"
   },
   "standard-version": {
     "scripts": {
